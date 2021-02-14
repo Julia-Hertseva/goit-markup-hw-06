@@ -1003,7 +1003,7 @@ footer {
 }
 
 .modal-form-check-policy:focus + .modal-form-label-policy::before {
-  outline: var(--accent-color);
+  /* outline: 1px solid var(--accent-color); */
 }
 
 .modal-form-label-policy {
@@ -1016,6 +1016,10 @@ footer {
   font-size: 14px;
   line-height: 1.714;
   text-decoration: var(--accent-color);
+}
+
+.link {
+  margin-left: 5px;
 }
 
 .modal-form-btn {
